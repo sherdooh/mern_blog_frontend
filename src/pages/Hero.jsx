@@ -1,6 +1,6 @@
 import React from "react";
 import { FiSearch } from "react-icons/fi";
-import { images } from "../../constants";
+import { images } from "../constants";
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="lg:w-1/2">
         <div className="mt-10 px-5 py-5 text-center lg:text-left">
           <h1 className="font-opensans text-3xl font-bold text-[#6C88D0] md:text-5xl lg:text-4xl xl:text-5xl lg:max-w-[540px]">
-            Health Articles that Interests you!!
+            Health Articles that Interests You!!
           </h1>
           <p className="text-dark-hard mt-4 md:text-xl lg:text-base xl:text-xl">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.

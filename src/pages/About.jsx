@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from React Router
-import Header from "./../../components/Header";
-import CTA from "./CTA";
+import Header from "../components/Header";
+import CTA from "../pages/CTA";
 
 function AboutUs() {
   return (

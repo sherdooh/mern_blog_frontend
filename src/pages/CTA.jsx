@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "../../constants";
+//import { images } from "../constants/images";
 
 const CTA = () => {
     return (
@@ -37,11 +37,11 @@ const CTA = () => {
                             <div className="w-1/2 h-1/2 bg-[#FC5A5A] rounded-lg absolute top-[10%] -right-[8%]" />
                             <div className="w-1/2 h-1/2 bg-white rounded-lg opacity-[.06] absolute -bottom-[10%] -left-[8%]" />
                             <div className="w-full rounded-xl bg-white p-3 z-[1] relative">
-                                <img
+                                {/* <img
                                     src={images.CTA}
                                     alt="title"
                                     className="w-full object-cover object-center h-auto md:h-52 lg:h-48 xl:h-60"
-                                />
+                                /> */}
                                 <div className="p-5">
                                     <h2 className="font-roboto font-bold text-xl text-dark-soft md:text-2xl lg:text-[28px]">
                                         Get Better Everyday

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { images } from "../constants";
-import { Link } from "react-router-dom"; // Import Link from React Router
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,10 +24,10 @@ const Header = () => {
           <Link to="/about" className="hover:text-dark-hard">
             About
           </Link>
-          <Link to="/login" className="hover:text-dark-hard">
+          <Link to="####" className="hover:text-dark-hard">
             Login
           </Link>
-          <Link to="/register" className="hover:text-dark-hard">
+          <Link to="####" className="hover:text-dark-hard">
             Register
           </Link>
         </nav>
@@ -53,12 +53,12 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/login" className="hover:text-dark border-none rounded-md px-3 py-1">
+                  <Link to="/" className="hover:text-dark border-none rounded-md px-3 py-1">
                     Login
                   </Link>
                 </li>
                 <li>
-                  <Link to="/register" className="hover:text-dark border-none rounded-md px-3 py-1">
+                  <Link to="/" className="hover:text-dark border-none rounded-md px-3 py-1">
                     Register
                   </Link>
                 </li>
