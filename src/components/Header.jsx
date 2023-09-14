@@ -10,24 +10,24 @@ const Header = () => {
   };
 
   return (
-    <section className="font-roboto bg-white shadow-md">
+    <section className="text-primary font-roboto bg-white shadow-md">
       <header className="container mx-auto py-4 px-6 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <img className="w-16" src={images.Logo} alt="logo" />
-          <span className="text-black font-semibold">Health and Wellness</span>
+          <span className="text-primary font-semibold hover:text-dark-hard">HEALTH AND WELLNESS</span>
         </div>
-        <nav className="hidden lg:flex space-x-4 font-semibold text-black">
+        <nav className="hidden lg:flex space-x-4 font-semibold text-primary">
           {/* Navigation links */}
-          <Link to="/" className="hover:underline">
+          <Link to="/" className="hover:text-dark-hard">
             Home
           </Link>
-          <Link to="/about" className="hover:underline">
+          <Link to="/about" className="hover:text-dark-hard">
             About
           </Link>
-          <Link to="/login" className="hover:underline border-2 border-blue-500 rounded-md px-3 py-1">
+          <Link to="/login" className="hover:text-dark-hard">
             Login
           </Link>
-          <Link to="/register" className="hover:underline border-2 border-blue-500 rounded-md px-3 py-1">
+          <Link to="/register" className="hover:text-dark-hard">
             Register
           </Link>
         </nav>
@@ -39,26 +39,26 @@ const Header = () => {
             ☰
           </button>
           {menuOpen && (
-            <div className="absolute top-16 right-6 bg-white border rounded-lg shadow-md p-4">
+            <div className="absolute top-16 right-6 text-primary bg-white border rounded-lg shadow-md p-4">
               {/* Mobile app drawer content */}
               <ul className="space-y-2">
                 <li>
-                  <Link to="/" className="block text-gray-600 hover:text-gray-900 transition duration-300">
+                  <Link to="/" className="block hover:text-gray-900 transition duration-300">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="block text-gray-600 hover:text-gray-900 transition duration-300">
+                  <Link to="/about" className="block hover:text-gray-900 transition duration-300">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link to="/login" className="hover:underline border-2 border-blue-500 rounded-md px-3 py-1">
+                  <Link to="/login" className="hover:text-dark border-none rounded-md px-3 py-1">
                     Login
                   </Link>
                 </li>
                 <li>
-                  <Link to="/register" className="hover:underline border-2 border-blue-500 rounded-md px-3 py-1">
+                  <Link to="/register" className="hover:text-dark border-none rounded-md px-3 py-1">
                     Register
                   </Link>
                 </li>
