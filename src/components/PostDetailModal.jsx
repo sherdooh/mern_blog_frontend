@@ -28,7 +28,7 @@ const PostDetailModal = ({ isOpen, onRequestClose, post }) => {
     >
       <div>
         {/* Post details UI*/}
-        <h1>{post.title}</h1>
+        <h1 className="font-roboto font-bold text-xl text-dark-soft md:text-2xl lg:text-[28px]">{post.title}</h1>
         <p>{post.content}</p>
         <h3>{post.author}</h3>
         <h3>Blog-Admin</h3>

@@ -55,11 +55,12 @@ const DisplayPost = () => {
                     post.expanded ? 'block' : 'truncate'
                   }`}
                 >
-                  {post.content}
+                  {post.introduction}
+                  {post.body}
                 </div>
 
                 {/* Read More Button */}
-                {post.content.length > 200 && (
+                {post.content.length > 100 && (
                   <button
                     className="text-dark-light hover:underline mt-2"
                     onClick={() => openModal(post)}
