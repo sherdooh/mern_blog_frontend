@@ -11,9 +11,9 @@ const Hero = () => {
             Health Articles that Interests You!!
           </h1>
           <p className="text-dark-hard mt-4 md:text-xl lg:text-base xl:text-xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatum aspernatur ullam cupiditate placeat aliquid, natus
-            repellat ducimus enim optio commodi. Aperiam, consequuntur?
+          Discover a treasure trove of captivating health 
+          articles tailored to your interests. 
+          Stay informed, be inspired, and start your journey to better health today!
           </p>
           <div className="flex flex-col gap-y-2.5 mt-10 xl:mt-10 relative">
             <div className="relative">
