@@ -1,6 +1,6 @@
-// DisplayPost.js
 import React, { useState, useEffect } from 'react';
 import PostDetailModal from '../components/PostDetailModal';
+import images from "../constants/images";
 
 const DisplayPost = () => {
   const [posts, setPosts] = useState([]);
@@ -44,14 +44,15 @@ const DisplayPost = () => {
               <img
                 src={post.image}
                 alt={post.title}
-                className="w-full object-cover object-center h-auto md:h-52 lg:h-48 xl:h-60"
+                className="w-full object-cover object-center h-auto md:h-52 lg:h-48 xl:h-60 transform transition-transform hover:scale-105"
+                // Apply the hover:scale-105 class to achieve the zoom effect
               />
               <div className="p-5">
-                <h3 className="font-roboto font-bold text-xl text-dark-soft md:text-2xl lg:text-[28px]">
+                <h3 className="font-roboto font-bold text-xl text-dark-hard md:text-2xl lg:text-[28px]">
                   {post.title}
                 </h3>
                 <div
-                  className={`text-dark-light mt-3 text-sm md:text-lg ${
+                  className={`text-dark-hard mt-3 text-sm md:text-lg ${
                     post.expanded ? 'block' : 'truncate'
                   }`}
                 >
@@ -60,7 +61,7 @@ const DisplayPost = () => {
                 </div>
 
                 {/* Read More Button */}
-                {post.content.length > 100 && (
+                {post.content.length > 10 && (
                   <button
                     className="text-dark-light hover:underline mt-2"
                     onClick={() => openModal(post)}
@@ -72,7 +73,7 @@ const DisplayPost = () => {
                 <div className="flex justify-between flex-nowrap items-center mt-6">
                   <div className="flex items-center gap-x-2 md:gap-x-2.5">
                     <img
-                      src={post.profileimage}
+                      src={images.PostProfileImage}
                       alt="post profile"
                       className="w-9 h-9 md:w-10 md:h-10 rounded-full"
                     />
@@ -82,7 +83,7 @@ const DisplayPost = () => {
                       </h5>
                       <div className="flex items-center gap-x-2">
                         <span className="italic text-dark-light text-xs md:text-sm">
-                          Blog-Admin
+                          <a href="https://github.com/sherdooh" className="hover:underline" target="_blank" rel="noopener noreferrer">Blog-Admin</a>
                         </span>
                       </div>
                     </div>
