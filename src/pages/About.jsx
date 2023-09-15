@@ -12,8 +12,8 @@ function AboutUs() {
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-4">Join Us Today!</h2>
           <p className="text-lg mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            convallis justo eu sem hendrerit.
+          We're passionate about sharing valuable health insights. 
+          Our team of experts curates articles to empower you on your wellness journey. Explore, learn, and thrive with us!
           </p>
           {/* Use Link to navigate to the register page */}
           <Link to="/register">
