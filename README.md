@@ -15,9 +15,9 @@ Welcome to the front-end repository of our Health Blog Website project. This rep
 
 To run the front end locally, follow these steps:
 
-1. Clone this repository: `git clone `
-2. Navigate to the project directory: `cd [project-fol`
-3. Open the `index.html` file in your preferred web browser.
+1. Clone this repository: `git clone `https://github.com/sherdooh/mern_blog_frontend.git'
+2. Navigate to the project directory: `cd mern_blog_frontend/src`
+3. Run 'npm start' after onstalling the necessary modules,libraries and frameworks.
 
 That's it! You can now explore the front end of our Health Blog Website.
 
@@ -27,6 +27,6 @@ We welcome contributions from front-end developers and designers who want to imp
 
 ## Feedback
 
-We appreciate your feedback! If you encounter any issues or have suggestions for improvement, please open an [Issue](link-to-issues) or reach out to us through our [Contact Page](link-to-contact).
+We appreciate your feedback! If you encounter any issues or have suggestions for improvement, please open  reach out to us through my mail Sherkiplah@gmail.com
 
 Thank you for your interest in our Health Blog Website (Front-end) project!
