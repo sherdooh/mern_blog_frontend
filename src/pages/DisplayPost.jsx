@@ -45,16 +45,14 @@ const DisplayPost = () => {
                 src={post.image}
                 alt={post.title}
                 className="w-full object-cover object-center h-auto md:h-52 lg:h-48 xl:h-60 transform transition-transform hover:scale-105"
-                // Apply the hover:scale-105 class to achieve the zoom effect
               />
               <div className="p-5">
                 <h3 className="font-roboto font-bold text-xl text-dark-hard md:text-2xl lg:text-[28px]">
                   {post.title}
                 </h3>
                 <div
-                  className={`text-dark-hard mt-3 text-sm md:text-lg ${
-                    post.expanded ? 'block' : 'truncate'
-                  }`}
+                  className={`text-dark-hard mt-3 text-sm md:text-lg ${post.expanded ? 'block' : 'truncate'
+                    }`}
                 >
                   {post.introduction}
                   {post.body}
@@ -63,10 +61,10 @@ const DisplayPost = () => {
                 {/* Read More Button */}
                 {post.content.length > 10 && (
                   <button
-                    className="text-dark-light hover:underline mt-2"
+                    className="text-dark-light hover:text-dark-hard mt-2"
                     onClick={() => openModal(post)}
                   >
-                    Read More
+                    Read More...
                   </button>
                 )}
 
@@ -83,7 +81,15 @@ const DisplayPost = () => {
                       </h5>
                       <div className="flex items-center gap-x-2">
                         <span className="italic text-dark-light text-xs md:text-sm">
-                          <a href="https://github.com/sherdooh" className="hover:underline" target="_blank" rel="noopener noreferrer">Blog-Admin</a>
+                          <a
+                            href="https://github.com/sherdooh"
+                            className="hover:text-dark-hard"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Blog-Admin
+                          </a>
+
                         </span>
                       </div>
                     </div>

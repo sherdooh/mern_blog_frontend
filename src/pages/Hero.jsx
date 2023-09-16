@@ -37,13 +37,13 @@ const Hero = () => {
               Trending Posts:
             </span>
             <ul className="flex flex-wrap gap-x-2.5 gap-y-2.5 mt-3 lg:text-sm xl:text-base">
-              <li className="rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold">
+              <li className="rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold hover:text-dark-hard">
                 Health
               </li>
-              <li className="rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold">
+              <li className="rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold hover:text-dark-hard">
                 Eating Habits
               </li>
-              <li className="rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold">
+              <li className="rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold hover:text-dark-hard">
                 Covid-19
               </li>
             </ul>
